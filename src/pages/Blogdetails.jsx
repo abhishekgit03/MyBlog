@@ -1,9 +1,9 @@
 import React from 'react'
 import Blogcontent from '../components/Blogcontent'
 
-function Blogdetails() {
+function Blogdetails({blogs}) {
   return (
-    <Blogcontent/>
+    <Blogcontent  blogs={blogs?blogs:""}/>
   )
 }
 

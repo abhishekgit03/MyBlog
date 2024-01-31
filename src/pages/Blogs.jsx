@@ -1,9 +1,10 @@
 import React from 'react'
 import Blogcomponent from '../components/Blogcomponent'
 
-function Blogs() {
+function Blogs({blogs}) {
+  // console.log("Homepage data:",blogs)
   return (
-    <Blogcomponent/>
+    <Blogcomponent blogs={blogs?blogs:""}/>
   )
 }
 
