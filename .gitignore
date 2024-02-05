@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 strapi-blog
+strapi-blog-new1
 
 # Editor directories and files
 .vscode/*
@@ -23,3 +24,5 @@ strapi-blog
 *.njsproj
 *.sln
 *.sw?
+
+.vercel

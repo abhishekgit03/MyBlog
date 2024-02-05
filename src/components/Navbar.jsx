@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <nav class="sticky top-0 z-10 py-4 block w-full max-w-full px-4 text-regal-blue bg-white border rounded-none shadow-md h-max border-white/80 bg-opacity-80 backdrop-blur-2xl backdrop-saturate-200 lg:px-8 lg:py-4">
+    <nav class="sticky top-0 z-10 py-4 block w-full max-w-full px-4 text-regal-blue bg-white border rounded-none shadow-md h-max border-white/80 backdrop-blur-2xl backdrop-saturate-200 lg:px-8 lg:py-4">
     <div class="flex items-center justify-between text-blue-gray-900">
       <a href="#"
         class="mr-4 block cursor-pointer font-poppins font-semibold text-xl text-regal-blue leading-relaxed text-inherit antialiased">

@@ -29,7 +29,7 @@ function Blogcontent({blogs}) {
             md:gap-x-8 sm:gap-y-8 ss:gap-y-8 px-4 sm:pt-20 md:mt-0 ss:pt-20 text-black'>
 
                 <div className='col-span-6 '>
-                    <img className=' h-72 w-full object-cover'  src={`http://localhost:1337${blog.attributes.coverImg.data.attributes.url}`} />
+                    <img className=' h-72 w-full object-contain'  src={blog.attributes.coverImg.data.attributes.url} />
                     <h1 className='font-bold text-2xl my-1 pt-5'>{blog.attributes.blogTitle}</h1>
                     <div className='pt-5'><ReactMarkdown className='whitespace-pre-wrap'>{blog.attributes.blogContent}</ReactMarkdown></div>
 

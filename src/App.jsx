@@ -4,13 +4,13 @@ import viteLogo from '/vite.svg'
 import Navbar from './components/Navbar'
 import {Route,Routes} from 'react-router-dom'
 import Blogs from './pages/Blogs'
-import Blogdetails from './pages/blogdetails'
+import Blogdetails from './pages/Blogdetails'
 import useFetch from './hooks/useFetch'
 import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-  const url="http://localhost:1337/api/blogs?populate=*"
+  const url="https://blog-strapibackend.onrender.com/api/blogs?populate=*"
   let {loading,data,error}= useFetch(url)
 
   if(loading)
