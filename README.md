@@ -1,8 +1,8 @@
-# React + Vite
+## Personal blog website built using React,Tailwind,Strapi CMS,Postgres and Cloudinary
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![image](https://github.com/abhishekgit03/MyBlog/assets/92089364/31fdfad6-ca9d-4f6d-a9e8-8b5649264467)
+![image](https://github.com/abhishekgit03/MyBlog/assets/92089364/feefbdb2-0a60-4f91-b2f6-731950921079)
+![image](https://github.com/abhishekgit03/MyBlog/assets/92089364/51d921eb-b555-4377-927c-5e5c79533b39)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
