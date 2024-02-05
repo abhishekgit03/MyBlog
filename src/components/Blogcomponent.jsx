@@ -39,7 +39,7 @@ function Blogcomponent({blogs}) {
             <article class="mx-auto my-2 flex max-w-md flex-col rounded-2xl bg-white px-4 shadow md:max-w-6xl md:flex-row md:items-center">
               
               <div class="shrink-0 my-4 md:mr-8 md:max-w-sm">
-                <img class="rounded-1xl" src={blog.attributes.coverImg.data.attributes.url} alt="" />
+                <img class="rounded-1xl h-48 w-72" src={blog.attributes.coverImg.data.attributes.url} alt="" />
               </div>
               <div class="py-4 sm:py-8">
                 <a href={`/readblog/${blog.id}`} class="mb-6 block text-2xl font-medium text-gray-700">{blog.attributes.blogTitle}</a>
