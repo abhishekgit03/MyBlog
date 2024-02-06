@@ -35,19 +35,18 @@ function Blogcomponent({blogs}) {
         {blogs.data.map((blog)=>
         {
             return (
-            <div key={blog.id} class=" px-2 py-8">
+            <div key={blog.id} class=" px-4 py-8">
             <article class="mx-auto my-2 flex max-w-md flex-col rounded-2xl bg-white px-4 shadow md:max-w-6xl md:flex-row md:items-center">
               
               <div class="shrink-0 my-4 md:mr-8 md:max-w-sm">
                 <img class="rounded-1xl h-48 w-72" src={blog.attributes.coverImg.data.attributes.url} alt="" />
               </div>
               <div class="py-4 sm:py-8">
-                <a href={`/readblog/${blog.id}`} class="mb-6 block text-2xl font-medium text-gray-700">{blog.attributes.blogTitle}</a>
+                <a href={`/readblog/${blog.id}`} class="mb-1 block text-2xl font-medium text-blue-500">{blog.attributes.blogTitle}</a>
                 <p class="mb-6 text-gray-500">{blog.attributes.blogDesc}</p>
                 <div class="flex items-center">
-                  <p class="ml-4 w-56">
-                    <strong class="block font-medium text-gray-700">By Abhishek</strong>
-                    <span class="text-sm text-gray-400">{blog.attributes.date}</span>
+                  <p class="w-56">
+                    <span class="text-sm text-gray-400">Posted on: {blog.attributes.date}</span>
                   </p>
                 </div>
               </div>
